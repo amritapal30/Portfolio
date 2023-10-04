@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello! It's me</h3>
+            <h1>Amrita Pal</h1>
+            <h3>And I'm a <span>Web Designer</span></h3>
+            <p>A Front-End Web Developer passionate about creating interactive and responsive applications and create experiences on the web.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/arijit.pal.1048?mibextid=ZbWKwL"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://github.com/amritapal30"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/igamrita_/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/amrita-pal-9b768a22b"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+            <a href="AP_CV.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/ap.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/amritapal.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Designer!</h3>
+            <p>I am pursuing my Bachelors degree in Computer Application. I am a Frontend Web Designer and try to make attractive and responsive websites. Throughout my academic journey, I developed my skills in programming languages like C++ and Java. My goal is to continuously learn and grpow in the field of technology, and contributing innovative solutions and making a positive impact.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web <br> Development</h3>
+                <p>Web Development refers to the creating, building, and maintaining websites. It includes aspects like web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Data Structures <br> & <br> Database Management System</h3>
+                <p>Data Structures and Algorithm is a method of managing and arranging data in such a way that we can conduct operations on these data in an efficient way. Data Structures is about providing or contributing data elements for better organization and storage.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Programming Languages</h3>
+                <p>A programming language is a set of symbols, grammars and rules with the help of which one is able to translate algorithms to programs that will be executed by the computer. The programmer communicates with a machine using programming languages. Most of the programs have a highly structured set of rules.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- porfolio section starts -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/web1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Web Development Project <br> Beauty Salon and Spa Website.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/web2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Web Development Project <br> Portfolio Website.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/no-code.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>NO-CODE (Adalo)</h4>
+                    <p>NO-CODE Project <br> E-Commerce App <br> By Adalo.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" requiured>
+                <input type="text" placeholder="Email Address" requiured>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" requiured>
+                <input type="text" placeholder="Email Subject" requiured>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by AP | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bxs-up-arrow-circle'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- script file -->
+    <script src="port.js"></script>
+</body>
+</html>
