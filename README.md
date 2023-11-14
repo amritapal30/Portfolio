@@ -1,5 +1,5 @@
 # Portfolio
-This is the template of mny portfolio website using html css and js.
+This is the template of my portfolio website using html css and js.
 The full document of the website is uploaded on the github account. Check it out there!!
 ![pic01](https://github.com/amritapal30/Portfolio/assets/145271835/81509b58-86e8-4694-be14-ba7804fa8be9)
 ![pic02](https://github.com/amritapal30/Portfolio/assets/145271835/1e5d1a62-3fa6-431f-b987-9a0eec97eca8)
